@@ -1,0 +1,37 @@
+@use "../../variables.sass"
+
+.testimonial__container
+  width: 750px
+
+.testimonial__card
+  background-color: variables.$container-color
+  border: 1px solid rgba(0,0,0,0.1)
+  padding: 1.5rem 2rem
+  border-radius: 1.5rem
+  margin-bottom: variables.$mb-3
+
+.testimonial__img
+  width: 60px
+  border-radius: 3rem
+  maring-bottom: variables.$mb-1
+
+.testimonial__name
+  font-size: variables.$normal-font-size
+  font-weight: variables.$font-medium
+  margin-bottom: variables.$mb-0-25
+
+.testimonial__description
+  font-size: variables.$small-font-size
+
+.swiper-pagination-bullet
+  background-color: variables.$text-color
+
+.swiper-pagination-bullet-active
+  background-color: variables.$title-color
+
+@media screen and (max-width: 992px)
+  .testimonial__container
+    width: initial
+
+  .testimonial__card
+    padding: 1.25rem 1.5rem

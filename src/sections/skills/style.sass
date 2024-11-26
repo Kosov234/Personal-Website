@@ -1,0 +1,21 @@
+@use "../../variables.sass"
+
+.skills__container
+  grid-template-columns: repeat(2, 350px)
+  column-gap: 3rem
+  justify-content: center
+
+.skills__title
+  font-size: variables.$normal-font-size
+  font-weight: variables.$font-medium
+  text-align: center
+  margin-bottom: variables.$mb-1-5
+
+@media screen and (max-width: 992px)
+  .skills__container
+    grid-template-columns: max-content
+   
+
+@media screen and (max-width: 576px)
+  .skills__container
+    grid-template-columns: 1fr
