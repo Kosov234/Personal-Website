@@ -1,6 +1,5 @@
-import { useState } from "react";
-import "./style.sass";
 import Works from "./Works";
+import "./style.sass";
 
 const Work = () => {
   return (

@@ -1,5 +1,5 @@
-import { projectsData } from "./Data";
-import WorkItems from "./WorkItems";
+import { projectsData } from "./data";
+import WorkItem from "./WorkItem.tsx";
 import "./style.sass";
 
 const Works = () => {
@@ -7,7 +7,7 @@ const Works = () => {
     <div>
       <div className="work__container container grid">
         {projectsData.map((item) => {
-          return <WorkItems item={item} key={item.id} />;
+          return <WorkItem item={item} key={item.id} />;
         })}
       </div>
     </div>
