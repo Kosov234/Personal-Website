@@ -27,7 +27,11 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <a href="" className="footer__social-link" target="_blank">
+          <a
+            href="https://github.com/Kosov234"
+            className="footer__social-link"
+            target="_blank"
+          >
             <i className="uil uil-github-alt"></i>
           </a>
         </div>
