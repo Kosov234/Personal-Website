@@ -1,6 +1,6 @@
 import "./app.sass";
 
-import About from "./sections/about_me/Summary";
+import AboutMe from "./sections/about_me/AboutMe";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
 import Header from "./sections/header/Header";
@@ -17,7 +17,7 @@ function App() {
       <Header />
       <main className="main">
         <Home />
-        <About />
+        <AboutMe />
         <Skills />
         <Experience />
         <Work />

@@ -1,9 +1,9 @@
 import "./style.sass";
-import AboutImg from "../../assets/old_profile_picture.jpg";
+import AboutImg from "../../assets/New_Photo.jpg";
 import CV from "../../assets/Alexandr_Cosov_CV.pdf";
 import Info from "./components/Info/Info";
 
-const Summary = () => {
+const AboutMe = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
@@ -55,4 +55,4 @@ const Summary = () => {
   );
 };
 
-export default Summary;
+export default AboutMe;

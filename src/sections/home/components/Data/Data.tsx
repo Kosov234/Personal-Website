@@ -62,7 +62,7 @@ const Data = () => {
         CSS, and SASS.
       </p>
 
-      <a href="" className="button button__flex">
+      <a href="#contact" className="button button__flex">
         Say Hello
         <svg
           className="button__icon"
