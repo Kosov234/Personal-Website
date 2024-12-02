@@ -1,5 +1,5 @@
 import "./style.sass";
-import AboutImg from "../../assets/New_Photo.jpg";
+import AboutImg from "../../assets/Compressed_Profile.jpg";
 import CV from "../../assets/Alexandr_Cosov_CV.pdf";
 import Info from "./components/Info/Info";
 
